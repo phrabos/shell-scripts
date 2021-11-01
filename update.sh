@@ -15,7 +15,7 @@ apt autoremove -y
 echo -e '\e[0;36m'
 echo 'APT autoremove completed'
 echo -e '\e[0m'
-flatpak update
+flatpak update -y
 echo -e '\e[0;36m'
 echo 'flatpak update completed'
 echo -e '\e[0m'
